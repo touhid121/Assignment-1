@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    line-height:1.5 ;
+}
+
+
+.navbar{
+        width: 100%;
+        padding: 0.6rem;
+        border-bottom: 0.05rem solid black;
+        position: fixed;
+        top: 0;
+        background-color: #F0FFFF;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+
+.logo{
+    
+    display: inline-block;
+    margin-left: 1rem;
+}
+.logo img{
+    border-radius: 50%;
+}
+.logoim{
+    text-decoration: none;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24rem;
+    
+} 
+   
+
+.nav-links li{
+    list-style: none;
+  display: inline-block;
+
+}
+
+.nav-links a{
+    padding: 1.5rem;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 20px;
+    transition: transform 0.4s ease, background-color 0.4s ease;
+    transform: translatex(10px);
+    
+}
+
+.nav-links a:hover,
+.nav-links:active::after{
+    color: #221313;
+    font-size: 21px;
+}
+
+.reg{
+   
+     border: 0.08rem solid black;
+     background-color: yellow;
+     border-radius: 0.7em;
+     transition: transform 0.4s ease, background-color 0.4s ease;
+    
+     margin-right: 8rem;
+    padding: 0.5rem;
+
+   
+    
+}
+.reg a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+   
+
+    
+}
+
+.reg:hover{
+    background-color:rgb(227, 227, 7);
+    transform: translatex(5px);
+}
+
+.hero{
+    background-color: azure;
+    text-align: center;
+    padding: 10rem 5rem 4rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    gap: 5rem;
+    
+}
+
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+.hero p{
+    text-transform: capitalize;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.banner-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.banner-image img{
+    border-radius: 0.7rem;
+}
+.btn1{
+    display: inline-block;
+    padding: 1rem 2rem 1rem;
+    background-color: yellow;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    transition: transform 0.4s ease, background-color 0.4s ease;
+
+}
+
+.btn1:hover{
+    background-color:rgb(227, 227, 7);
+    transform: translateY(-8px);
+}
+
+.banner-image{
+    width: 100%;
+    height: auto;
+   border-radius: 12px;
+    box-shadow:  0 3px 5px rgba(0, 0,0, 1);
+    background-size: cover;
+}
+
+.Clients{
+    text-align: center;
+    width:100% ;
+    height: 100%;
+    background-color:  rgb(241, 238, 233);
+    padding: 5rem 4rem 4rem;
+   
+}
+
+.Clients h2{
+          padding-top: 1rem;
+           font-size: 2rem;
+}
+
+.Clients p{
+    margin-top: 0.6rem;
+     padding-bottom: 3rem;
+}
+.client-img li{
+    display: inline-block;
+}
+
+.client-img a{
+    padding: 4rem;
+    margin-bottom:4rem ;
+    
+}
+
+.p-blockchain{
+    background-color: rgb(224, 219, 210);
+    width: 100%;
+    height: auto;
+    padding: 5rem 5rem 4rem;
+}
+
+.p-content{
+    text-align: center;
+}
+
+.p-blockchain h1{
+    margin-bottom: 2rem;
+}
+.p-blockchain p{
+    margin-bottom: 2rem;
+}
+.separ{
+    display: flex;
+    max-width: 100vw;
+    justify-content: space-around;
+    flex-direction: row;
+    
+
+}
+.creator{
+    width:16rem ;
+    height: 16rem ;
+    background-color: white;
+    text-align: center;
+    border-radius: 0.7rem;
+    box-shadow:  2px 3px 3px rgba(0, 0,0, 1);
+    padding: 2rem ;
+    overflow-wrap: break-word;
+    transition: transform 0.4s ease, background-color 0.4s ease;
+
+}
+
+.creator:hover{
+    transform: translateY(-5px);
+}
+
+
+
+.help-block{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    padding: 4rem 3rem 4rem;
+    text-align: center;
+}
+
+
+.help-block h2{
+    font-size:36px ;
+    color: #A9A9A9;
+
+}
+
+.block-content p{
+    color: #A9A9A9;
+}
+.help-element{
+         display: flex;
+        justify-content: center;
+       align-items: stretch;
+        flex-wrap: wrap;
+        gap: 5rem;
+       
+}
+
+
+
+.help-element div{
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 0.7rem;
+    box-shadow: 2px 2px 2px  black;
+        
+}
+
+.bl-future{
+    width: 100%;
+    height: auto;
+    padding: 2rem 3rem 6rem;
+    background-color: rgb(241, 238, 233);
+    border-bottom: 1px solid black;
+    position: relative;
+    
+   
+}
+
+.f-content h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: rgb(67, 61, 61);
+
+    margin: 2rem;
+    text-align: center;
+}
+
+.f-content p{
+    color: #A9A9A9;
+    margin-bottom: 2rem;
+    text-align: center;
+    
+}
+
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;  
+    position: relative; 
+}
+
+.card-img1 img{
+    
+    border-radius: 0.7rem;
+    
+    
+}
+.card-c1{
+    background-color: rgb(222, 222, 181);
+    position: relative;
+    bottom: 80px;
+    left: 6px;
+    
+    width: 18rem;
+    height: 12rem;
+    border-radius: 0.7rem;
+    text-align: center;
+    padding: 3rem;
+    box-shadow: 1px 1px 2px rgba(0, 0,0, 1);
+    transition: transform 0.4s ease, background-color 0.4s ease;
+    
+}
+
+.card-c1:hover{
+    background-color:rgb(240, 240, 173);
+    transform: translatey(10px);
+}
+
+.card-c1 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: green;   
+}
+
+.card-c1 a:hover{
+    font-size:21px ;
+    color:rgb(9, 179, 9) ;
+
+}
+
+.contact{
+    width: 100%;
+    height: auto;
+    background-color:#F0E68C ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    padding: 4rem 3rem 4rem;
+    
+
+}
+
+
+.contac{
+    background-color:#efebc3;
+    width:500px;
+    height:300px;
+    padding: 30px ;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0.7rem;
+
+   
+}
+
+.inp,textarea{
+    padding: 8px;
+    margin: 5px;
+    border-radius: 6px;
+    border-bottom: 2px solid #FFFACD ;
+    background-color: #e4ddb8;
+}
+
+.submit{
+    padding: 8px;
+    margin: 5px;
+    background-color: #FFFF00;
+    border: 2px solid black;
+    border-radius: 0.7rem;
+    transition: transform 0.4s ease, background-color 0.4s ease;
+}
+
+.submit:hover{
+    background-color:#f5d688;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color:#1c1c26;
+    padding: 10rem 14rem 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+.foot-logo{
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.foot-logo img{
+    border-radius: 50%;
+}
+.foot-content p{
+    text-align: left;
+    margin-bottom: 2rem;
+    color: whitesmoke;
+}
+
+.ft-link a{
+    
+    padding: 0.5rem;
+
+}
+.ft-link li{
+    list-style: none;
+    display: inline-block;  
+    
+}
+
+.company h3{
+    padding: 1rem;
+    font-size: 24px;
+    color:whitesmoke;
+}
+.com-link li{
+    list-style: none;
+    padding: 0.5rem 1rem 0.5rem;
+}
+.com-link a{
+    text-decoration: none;
+    color:whitesmoke;   
+}
+
+.com-link a:hover,
+.com-link a:active{
+    color: #64869c;
+    font-size: 17px;
+    
+}
+.support h3{
+    padding: 1rem;
+    font-size: 24px;
+    color:whitesmoke;
+}
+.sup-link li{
+    list-style: none;
+    padding: 0.5rem 1rem 0.5rem;
+}
+.sup-link a{
+    text-decoration: none;
+    color: whitesmoke;   
+}
+
+.sup-link a:hover,
+.sup-link a:active{
+    color: #64869c;
+    font-size: 17px;
+    
+}
+
+.stay h3{
+    padding: 1rem;
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+    
+
+
+.form-container {
+
+    border: 2px solid #64869c;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #e0cbcb;
+    
+  }
+
+  .form-container input{
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+.form-container button {
+    background-color: #020211;
+    color: rgb(246, 236, 236);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0;
+    transition: background-color 0.3s ease;
+  }
+
+  .form-container button:hover {
+    background-color: #64869c;
+  }
+
+
+
+  
